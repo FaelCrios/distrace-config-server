@@ -1,12 +1,12 @@
 spring:
   application:
-    name: greeting-service
+    name: initial-service
 management:
   endpoints:
     web:
       exposure:
         include:
         - '*'
-greeting-service:
+initial-service:
   greeting: "Hello"
   default-value: "World"

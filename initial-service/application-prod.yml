@@ -6,7 +6,7 @@ management:
     web:
       exposure:
         include:
-          - '*'
+        - '*'
 initial-service:
   initial: "Hello"
   default-value: "World"

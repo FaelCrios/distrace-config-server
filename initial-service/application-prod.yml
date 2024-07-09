@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: initial-service
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
+initial-service:
+  initial: "Hello"
+  default-value: "World"
